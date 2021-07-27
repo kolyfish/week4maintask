@@ -1,0 +1,13 @@
+@mixin size($width,$height:$width){
+    width:$width;
+    height:$height;
+
+}
+@mixin befor($width,$height){
+    &::before{
+        content:'';
+        width: $width;
+        height:$height;
+        display:inline-block;
+    }
+}

@@ -1,0 +1,25 @@
+$primeColor: #AA0601;
+
+.header{
+  background-color: $color;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+.d-flex{
+  display: flex;
+}
+.footer {
+  height: 200px;
+  background-color: $color;
+}
+.nav{
+  li{
+     margin-right: 64px;
+   }  
+   .a{
+  color: #fff;
+  text-decoration: none;
+  transition: .3s ease;
+    }
+}

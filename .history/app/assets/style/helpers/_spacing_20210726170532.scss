@@ -1,0 +1,87 @@
+.ml{
+    &-base{
+        margin-left:$spacing;   
+    }
+    &-1{
+        margin-left:$spacing*2;
+    }
+    &-2{
+        margin-left: $spacing*2.5;
+
+    }
+    &-3{
+        mask-size: $spacing*3.75;
+    }
+    &-8{
+        margin-left: $spacing*8;
+    }
+    @include pc-1024{
+        &-md-0{
+            margin-left: 0px;
+        }
+        &-md-1{
+            margin-left: $spacding*1;
+        }
+    }
+    @include phone-576{
+        &-sm-0{
+            margin-left: 0px;
+        }
+        &-sm-1{
+            margin-left: $spacing*0.5;
+        }
+        $-sm-2{
+            margin-left: $spacing*1.5;
+        }
+
+    }
+}
+.mr{
+    &-1{
+        margin-right: $spacing*1;
+    }
+    &-2{
+        margin-right: $spacing*3;
+    }
+    &-3{
+        margin-right: $spacing*3.75;
+    }
+    &-4{
+        margin-right: $spacing*4;
+    }
+    &-6{
+        margin-right: $spacing*6;
+    }
+    @include pc-1024{
+        &-md-0{
+        margin-right: $spacing*0;
+        }
+        &-md-2{
+            margin-right: $spacing*2;
+        }
+        &-md-3{
+            margin-right: $spacing*3;
+        }
+        &-md-4{
+            margin-right: $spacing*3.75;
+        }
+        &-md-5{
+            margin-right: $spacing*5;
+        }
+    @include phone-576{
+        &-sm-0{
+            margin-right: 0;
+        }
+        &-sm-1{
+            margin-right: $spacing;
+        }
+    }
+}
+.mb{
+    &-gap{
+        margin-bottom: 4px;
+    }
+    &-1{
+        mb
+    }
+}

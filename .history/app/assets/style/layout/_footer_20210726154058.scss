@@ -1,0 +1,19 @@
+.footer{
+    padding: 36px 0 30px 0;
+    a{
+        color:#fff;
+        @include link-hover{
+            opacity:0.7;
+        }
+    }
+
+    @include pc-1024{
+    padding: 40px 0;
+    }
+    @include phone-576{
+        padding:24px 0;
+    }
+}
+.footer_infro{
+    border-bottom:1px solid#fff
+}

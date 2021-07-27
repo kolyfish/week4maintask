@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title><%- title %></title>
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+  <header >
+    <div class="nav bg-dark d-flex d-flex-between-center flex-sm-column">
+      <div class="logo">
+        <a href="index.html> 
+          <img src="images/logo.png" alt="logo">
+        </a> 
+      </div>
+    
+        <ul class="navbar d-flex flex-sm-wrap w-sm-100">
+          <li class="w-sm-50"><a href="系列鏡框.html">系列鏡框</a></li>
+          <li class="w-sm-50"><a href="門市據點.html">門市據點</a></li>
+          <li class="w-sm-50"><a href="部落格.html">部落格</a></li>
+          <li class="w-sm-50"><a href="常見問題.html">常見問題</a></li>
+        </ul>
+  </header>
+
+  <%- contents %>
+
+
+  <div class="footer bg-dark">
+    <div class="contianer">
+        <div class="footer__infro mb-3 mb-sm-3">
+          <div class="footer__nav d-flex d-flex-between-center">
+            <ul class="footer__list d-flex">
+                <li class="mr-6 mr-md-5"><a href="index.html">首頁</a></li>
+                <li class="mr-6 mr-md-5"><a href="series_optical.html">系列鏡框</a></li>
+                <li class="mr-6 mr-md-5"><a href="location.html">門市據點</a></li>
+                <li class="mr-6 mr-md-5"><a href="blog.html">部落格</a></li>
+                <li class="mr-6 mr-md-5"><a href="qa.html">常見問題</a></li>  
+            </ul>
+            <ul class="share__btn d-flex">
+                <li class="mr-4 mr-md-3"><a href="#"><img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/102c91f7b3d8e08005073f54b3283b09a18dc427/week3/icon-fb.svg" alt="fb"></a></li>
+                <li class="mr-4 mr-md-3"><a href="#"><img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/102c91f7b3d8e08005073f54b3283b09a18dc427/week3/icon-ig.svg" alt="ig"></a></li>
+                <li class="mr-4 mr-md-3"><a href="#"><img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/102c91f7b3d8e08005073f54b3283b09a18dc427/week3/icon-line.svg" alt="line"></a></li>
+            </ul>
+        </div>
+        <ul class="contact-info mb-8">
+            <li ><img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/102c91f7b3d8e08005073f54b3283b09a18dc427/week3/icon-phone.svg" alt="icon電話">
+              <a class="text-4xl font-roboto text-md-xl text-sm-base mb-2 mb-md-1"  href="tel:+0800-000-000">0800-000-000</a></li>
+            <li class="d-flex mb-6"><img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/102c91f7b3d8e08005073f54b3283b09a18dc427/week3/icon-mail.svg" alt="icon郵件"><a href="mailto:glasses@business.com">glasses@business.com</a></li>
+        </ul>
+        <div class="copyright d-flex jcc-space-b">
+            <p>Copyright © 2020 Glasses.All rights reserved.</p>
+            <ul class="terms d-flex">
+                <li><a href="#">隱私權政策</a></li>
+                <li><a href="#">服務條款</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>

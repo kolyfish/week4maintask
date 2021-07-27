@@ -1,0 +1,16 @@
+.ml{
+    &-base{
+        margin-left:$spacing;   
+    }
+    &-1{
+        margin-left:$spacing*2;
+    }
+    &-2{
+        margin-left: $spacing*2.5;
+
+    }
+    &-3{
+        mask-size: $spacing*3.75;
+    }
+    
+}
